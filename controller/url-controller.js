@@ -7,7 +7,7 @@ exports.shortUrl = async (req,res) => {
         res.status(200).send("localhost:1337/shortUrl/"+id);
     }catch(err){
         console.log(err);
-        res.status(400).send("some error occured");
+        res.status(400).send("some  or big error error occured");
     }
 }
 
